@@ -19,6 +19,7 @@ app.use(cookieParser())
 import taskRouter from "./routes/task.routes.js"
 import authRouter from "./routes/auth.routes.js"
 
+
 // declaration of routes 
 app.use("/api/v1/tasks", taskRouter)
 app.use("/api/v1/auth", authRouter)
